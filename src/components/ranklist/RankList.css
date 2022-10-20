@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Peralta', cursive;
-}
 
-.box{
+.ranklist{
   position: relative;
   min-width: 350px;
   max-height: 500px;
@@ -23,13 +16,14 @@
   flex-direction: column;
   margin-top: 150px;
   margin-right: 50px;
+  align-items: center;
 
 }
-.box h3{
+.ranklist h3{
   color: #fff;
   margin-bottom: 20px;
 }
-.box .list{
+.ranklist .list{
   position: relative;
   display: flex;
   padding: 10px 0;
@@ -38,21 +32,22 @@
   margin: 10px 0;
   transition: 0.5s;
 }
-.box .list:hover{
+.ranklist .list:hover{
   background-color: #fff;
   box-shadow: -15px 30px 50px rgba(0,0,0,0.5);
   transform: scale(1.15) translate(30px,-15px);
   z-index: 100;
   color:  #161623;
 }
-.box .list .content{
+.ranklist .list .content{
   display: flex;
   flex-direction:column;
   color: #fff;
   margin-left: 10px;
 }
 
-.box .list:hover .content{
+
+.ranklist .list:hover .content{
   color:  rgba(0,0,0,0.5);
 }
 

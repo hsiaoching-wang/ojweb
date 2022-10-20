@@ -15,4 +15,13 @@
   flex-direction: column;
   margin-top: 150px;
   margin-right: 50px;
+  color: white;
+  align-items: center;
+ }
+.pet img{
+  position: relative;
+  bottom: 10%;
+  width: 192px;
+  height: 288px;
+  
  }
