@@ -26,7 +26,7 @@
 .ranklist .list{
   position: relative;
   display: flex;
-  padding: 10px 0;
+  padding: 10px;
   background-color: rgba(0,0,0,0.1);
   border-radius: 10px;
   margin: 10px 0;
@@ -37,7 +37,7 @@
   box-shadow: -15px 30px 50px rgba(0,0,0,0.5);
   transform: scale(1.15) translate(30px,-15px);
   z-index: 100;
-  color:  #161623;
+  color:  #0d080f;
 }
 .ranklist .list .content{
   display: flex;
@@ -48,6 +48,6 @@
 
 
 .ranklist .list:hover .content{
-  color:  rgba(0,0,0,0.5);
+  color:  rgb(19, 18, 18);
 }
 

@@ -14,9 +14,11 @@ function App() {
 };
   return (
     <div>
-      <Login/>
+      <Routes>
+          <Route path="/code" element={<Code/>} />
+          <Route path="/home" element={<Home/>} />
+      </Routes>
       <Home/>
-      <Code/>
     </div>
     
   );
